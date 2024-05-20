@@ -9,9 +9,9 @@ main(){
 	printf("ENTER THE VALUE OF C:- ");
 	scanf("%d",&c);
 	
-	(a<b)   ?((a<c)?(printf("THE MINIMUM VALUE IS %d",a))
-			      :((printf("THE MINIMUM VALUE IS %d",c))))
-			:((b<c)?(printf("THE MINIMUM VALUE IS %d",b))
-					:((printf("THE MINIMUM VALUE IS %d",c))));
+	(a>b)   ?((a>c)?(printf("THE MAXIMUM VALUE IS %d",a))
+			      :((printf("THE MAXIMUM VALUE IS %d",c))))
+			:((b>c)?(printf("THE MAXIMUM VALUE IS %d",b))
+					:((printf("THE MAXIMUM VALUE IS %d",c))));
 	
 }
